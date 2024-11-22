@@ -1,0 +1,92 @@
+@font-face {
+    font-family:'Magenta';
+    src:url('../recursos/Magenta.ttf') format('Magenta');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, img {
+    vertical-align: middle;
+    display: inline-block;
+}
+h1 {
+    font-family:'Magenta';
+    color: blueviolet;
+    background-color: #7398c4;
+    padding: 5px;
+}
+
+img {
+    margin-left: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.oscuro {
+    background-color: black;
+}
+
+nav {
+    background-color: #88a7d0;
+    padding: 5px;
+}
+
+section {
+    background-color: #a6bddc;
+    margin-top: 20px;
+}
+
+footer {
+    justify-content: center; 
+    align-items: flex-end;
+    margin-top:  20px;
+    background-color: #c4d2e7;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px; 
+}
+
+.columna1 {
+    width: 25vh;
+    flex: 1;
+    padding-bottom: 5vh;
+}
+
+.columna2 {
+    flex: 3;
+    padding-bottom: 5vh;
+
+}
+
+.galeria .imagen {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+  
+.galeria .imagen:hover {
+    transform: scale(1.1);
+}
+  
+.galeria .imagen.ampliada {
+    width: 300px;
+}
+
+#cambiar_fondo {
+    background-color: #a1cbff;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#cambiar_fondo:hover {
+    background-color: #61a8ff;
+}
