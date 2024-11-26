@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+.fondo {
+    border: 1px;
+    padding: 20px;
+    background-color: rgb(184, 209, 255);
+    border-radius: 10px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    background-color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+textarea::placeholder {
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}

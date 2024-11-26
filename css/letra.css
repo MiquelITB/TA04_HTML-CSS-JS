@@ -1,0 +1,20 @@
+@font-face {
+    src: url('/imagenes/Magenta.ttf') format('truetype');
+    font-family: 'Magenta';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 62, 255);
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(6, 226, 255);
+}
