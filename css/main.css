@@ -91,6 +91,7 @@ p {
     border: none;
     font-weight: bold;
     font-size: 15px;
+    border-radius: 10px;
 }
 
 #cambiar_fondo:hover {
